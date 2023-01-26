@@ -1,0 +1,32 @@
+body {
+width:100vw;
+height:100vh;
+top:-8px;
+left:-8px;
+position:absolute;
+
+background-image:url(aero.png);
+background-size: cover;
+backdrop-filter: grayscale(100%);
+
+color: rgb(255, 255, 255); 
+mix-blend-mode: difference;
+font-family: 'IBM Plex Sans', sans-serif;
+font-weight: 900;
+font-size:42px;
+}
+
+p {
+color: rgb(255, 255, 255);
+mix-blend-mode: difference;
+}
+
+#title {
+font-size:64px;
+
+}
+
+#subtitle {
+font-size:42px;
+line-height: 10px;
+}
